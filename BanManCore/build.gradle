@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'me.geek.tom'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    implementation 'org.eclipse.jetty:jetty-server:9.1.4.v20140401'
+    implementation 'org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016'
+
+    implementation 'com.google.code.gson:gson:2.8.0'
+}

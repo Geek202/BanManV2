@@ -1,0 +1,4 @@
+# BANMANv2 CONFIGURATION (version 1)
+
+# The port that the web API will run on. (default: 3080)
+web-api-port: 3080

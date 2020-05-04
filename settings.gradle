@@ -1,0 +1,5 @@
+rootProject.name = 'BanManV2'
+include 'BanManCore'
+include 'BanMan-Spigot'
+include 'BanMan-Bungee'
+

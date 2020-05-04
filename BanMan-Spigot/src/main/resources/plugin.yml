@@ -1,0 +1,51 @@
+# The entry point of the plugin
+main: me.geek.tom.banman.spigot.BanManSpigot
+
+# Name and version
+name: BanMan-Spigot
+version: 1.0-DEV
+
+# Thats me!
+authors:
+  - Tom_The_Geek
+
+# We use Bukkit API level for 1.15.2
+api-version: '1.15'
+
+# Information about the plugin
+description: A versatile bans plugin (spigot version)
+
+# Plugin commands
+commands:
+  # Command to query the plugin version.
+  banman:
+    description: What version of the plugin?
+    aliases: bm
+    usage: /banman
+  # Command to ban players
+  tempban:
+    description: Ban a player
+    permission: banman.tempban
+    permission-message: '&7[&9Ban&dMan&7]&c ey up you cant do that yo'
+
+# Permissions to do stuff
+permissions:
+  # Admin permissions
+  banman.admin:
+    description: Gives you administrative permissions for BanMan
+    default: false
+  # Banning permissions
+  banman.tempban:
+    description: Lets you ban a player
+    default: false
+  # Banning modifiers
+  banman.manual:
+    description: Give you permission to ban using specific durations of time
+    default: false
+  banman.silent:
+    description: Allows you to ban players without a broadcast message
+    default: false
+  # Unban permissions
+  banman.unban:
+    description: Allows you to unban a player
+    default: false
