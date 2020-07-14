@@ -8,7 +8,7 @@ BanMan is a permissions plugin for Spigot/Bukkit and soon for BungeeCord.
 The plugin currently is a work in progress.
 ## Features
 ### Customisable web interface
-BanMan features a seperatly hosted web interface powered by an intergrade REST API, that allows the querying of bans from the server.
+BanMan features a seperatly hosted web interface powered by an intergrated REST API, that allows the querying of bans from the server.
 This means that if you host the web app in [BanManWeb](https://github.com/Geek202/BanManWeb) and configure it to point to your sever, your community can
 view the list of banned players or query how long they have been banned for.
 ### Punishment control
